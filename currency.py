@@ -1,7 +1,7 @@
 import requests
 
 def convert_currency(amount, from_currency, to_currency):
-    url = f"https://v6.exchangerate-api.com/v6/4f6344da1ba251e797778726/latest/{from_currency}"
+    url = {"API KEY"}{from_currency}"
     response = requests.get(url)
     data = response.json()
 
